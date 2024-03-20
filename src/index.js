@@ -2,12 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Navbar2 from './navbar/Navbar2';
+import Home from "./pages/Home"
 import reportWebVitals from './reportWebVitals';
+import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from "react-router-dom"
+import BisectionPractical from './component/Bisection/BisectionPractical';
+import BisectionMethod from './component/Bisection/BisectionTheory';
+import AboutPage from './pages/about';
+import ContactUsPage from './pages/contact';
+const router=createBrowserRouter(createRoutesFromElements(
+  <Route path='/' element={<Navbar2/>}>
+      <Route path='' element={<Home/>}/>
+      <Route path='/bisection-Practical' element={<BisectionPractical/>}/>
+      <Route path='/bisection-Method'  element={<BisectionMethod/>}/>
+      <Route path='/About' element={<AboutPage/>}/>
+      <Route path='/Contact' element={<ContactUsPage/>}/>
+
+  </Route>
+))
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
