@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from "react-router-dom"
 import BisectionPractical from './component/Bisection/BisectionPractical';
 import BisectionMethod from './component/Bisection/BisectionTheory';
+import regulafalsiPractical from './component/regulafalsi/regulafalsiPractical';
+import RegulaFalsiP from './component/regulafalsi/regulafalsiPractical';
+import RegulaFalsiT from './component/regulafalsi/regulafalsiTheory';
 import AboutPage from './pages/about';
 import ContactUsPage from './pages/contact';
 const router=createBrowserRouter(createRoutesFromElements(
@@ -17,6 +20,9 @@ const router=createBrowserRouter(createRoutesFromElements(
       <Route path='/bisection-Method'  element={<BisectionMethod/>}/>
       <Route path='/About' element={<AboutPage/>}/>
       <Route path='/Contact' element={<ContactUsPage/>}/>
+      <Route path='/regulafalsi-Practical' element={<RegulaFalsiP/>}/>
+      <Route path='/regulafalsi-Theory' element={<RegulaFalsiT/>}/>
+      
 
   </Route>
 ))

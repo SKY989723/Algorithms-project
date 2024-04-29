@@ -9,6 +9,8 @@ import BisectionMethod from "../component/Bisection/BisectionPractical"
 import BisectionTheory from "../component/Bisection/BisectionTheory"
 import AboutPage from "./about";
 import ContactUsPage from "./contact";
+import regulafalsiPractical from "../component/regulafalsi/regulafalsiPractical";
+
 const Home = () =>{
       return <>
             <Grid container   spacing={4}>
@@ -25,6 +27,7 @@ const Home = () =>{
                               <Card4/>
                   </Grid>
             </Grid>
+            {/* <regulafalsiPractical/> */}
             {/* <AboutPage/> */}
             {/* <ContactUsPage/> */}
             {/* <BisectionTheory/> */}
