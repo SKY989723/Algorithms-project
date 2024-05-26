@@ -11,7 +11,7 @@ const ContactUsPage = () => {
         <Typography variant="body1" paragraph>
           We'd love to hear from you! Please feel free to reach out to us with any questions, feedback, or inquiries you may have.
         </Typography>
-        <form>
+        <form action="https://formspree.io/f/mjvndpqk" method="POST">
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
