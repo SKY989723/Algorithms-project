@@ -50,7 +50,7 @@ const NewtonRaphsonMethod = () => {
                 Enter the tolerance value: .01
             </Typography>
             <Typography variant="body1" paragraph>
-                Root found at iteration 3:0.1674
+                Root found at iteration 4:0.1674
             </Typography>
         </Container>
     );

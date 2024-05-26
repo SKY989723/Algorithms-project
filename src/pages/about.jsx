@@ -11,7 +11,6 @@ const AboutPage = () => {
         <Typography variant="body1" paragraph>
           Our application is designed to provide various numerical method algorithms to help users solve mathematical problems efficiently. We strive to make complex mathematical concepts more accessible by implementing user-friendly interfaces and clear explanations.
         </Typography>
-       
         <Typography variant="body1" paragraph>
           If you have any questions, suggestions, or feedback, please feel free to contact us.
         </Typography>
@@ -19,24 +18,38 @@ const AboutPage = () => {
           <Grid container justifyContent="space-between">
             <Grid item>
               <Typography variant="h6">
-                Mentor: Amit Medavi
+               Project Mentor:
+              </Typography>
+              <Typography variant="body1">
+                Prof. AMIT MEDHAVI
               </Typography>
             </Grid>
             <Grid item>
               <Typography variant="h6">
-                Head of Department: S.P. Kutar
+                Head of Department:
+              </Typography>
+              <Typography variant="body1">
+                Prof. S.P. KUTAR
               </Typography>
             </Grid>
           </Grid>
         </Box>
         <Box mt={5}>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h5" align="center" gutterBottom>
             Project Team Members:
           </Typography>
-          <Typography variant="body1">Vandana Suman</Typography>
-          <Typography variant="body1">Akash Vaishnav</Typography>
-          <Typography variant="body1">Abhishek Verma</Typography>
-          <Typography variant="body1">Ashish Prajapati</Typography>
+          <Grid container justifyContent="space-between">
+            <Grid item xs={6}>
+              <Typography variant="body1">Akash Vaishnav(Web Developer)</Typography>
+                <Typography variant="body1">Abhishek Verma(Web Developer)</Typography>
+            </Grid>
+            <Grid item>
+              <Grid container direction="column" alignItems="flex-end">
+              <Typography variant="body1">Vandana Suman(Content Creator)</Typography>
+                <Typography variant="body1">Ashish Prajapati(Content Creator)</Typography>
+              </Grid>
+            </Grid>
+          </Grid>
         </Box>
       </Box>
     </Container>

@@ -53,16 +53,19 @@ const SecantMethod = () => {
             <Divider />
             <Typography variant="h5" fontWeight="bold">Input and Output:</Typography>
             <Typography variant="body1" paragraph>
+                Enter the function f(x) as a JavaScript expression (e.g., x*x - 2): x**3 - 5*x + 1
+            </Typography>
+            <Typography variant="body1" paragraph>
                 Enter the lower bound of the interval (a): 0
             </Typography>
             <Typography variant="body1" paragraph>
                 Enter the upper bound of the interval (b): 1
             </Typography>
             <Typography variant="body1" paragraph>
-                Enter the function f(x) as a JavaScript expression (e.g., x*x - 2): x**3 - 5*x + 1
+                Enter the tolerance value: .001
             </Typography>
             <Typography variant="body1" paragraph>
-                The value of the root is: 0.20164
+                Root found at iteration 4: 0.2016
             </Typography>
         </Container>
     );
