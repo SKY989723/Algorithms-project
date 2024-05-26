@@ -8,9 +8,13 @@ import reportWebVitals from './reportWebVitals';
 import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from "react-router-dom"
 import BisectionPractical from './component/Bisection/BisectionPractical';
 import BisectionMethod from './component/Bisection/BisectionTheory';
+import SecantMethod from './component/secant/secantTheory';
+import SecantPractical from './component/secant/secantPractical'
 import regulafalsiPractical from './component/regulafalsi/regulafalsiPractical';
 import RegulaFalsiP from './component/regulafalsi/regulafalsiPractical';
 import RegulaFalsiT from './component/regulafalsi/regulafalsiTheory';
+import NewtonRaphsonMethod from './component/newtonraphson/newtonTheory';
+import NewtonRaphsonPractical from './component/newtonraphson/newtonPractical'
 import AboutPage from './pages/about';
 import ContactUsPage from './pages/contact';
 const router=createBrowserRouter(createRoutesFromElements(
@@ -22,6 +26,10 @@ const router=createBrowserRouter(createRoutesFromElements(
       <Route path='/Contact' element={<ContactUsPage/>}/>
       <Route path='/regulafalsi-Practical' element={<RegulaFalsiP/>}/>
       <Route path='/regulafalsi-Theory' element={<RegulaFalsiT/>}/>
+      <Route path='/secant-method' element={<SecantMethod/>}/>
+      <Route path='/secant-practical' element={<SecantPractical/>}/>
+      <Route path='/newton-method' element={<NewtonRaphsonMethod/>}/>
+      <Route path='/newton-practical' element={<NewtonRaphsonPractical/>}/>
       
 
   </Route>

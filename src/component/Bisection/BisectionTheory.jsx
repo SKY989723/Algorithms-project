@@ -68,7 +68,7 @@ const BisectionMethod = () => {
                 Enter the tolerance value: .001
             </Typography>
             <Typography variant="body1" paragraph>
-                Root found at iteration 10: 2.7060546875
+                Root found at iteration 10: 2.7061
             </Typography>
         </Container>
     );

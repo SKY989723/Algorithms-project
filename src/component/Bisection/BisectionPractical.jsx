@@ -32,8 +32,10 @@ const BisectionPractical = () => {
     do {
       c = (a + b) / 2;
       if (func(c) === 0 || Math.abs(b - a) / 2 < tol) {
-        console.log(`Root found at iteration ${iteration}: ${c}`);
-        setResult(`Root found at iteration ${iteration}: ${c}`);
+        const roundedNumber = c.toFixed(4);
+        // setRoot(`The value of the root is: ${roundedNumber}`);
+        console.log(`Root found at iteration ${iteration}: ${roundedNumber}`);
+        setResult(`Root found at iteration ${iteration}: ${roundedNumber}`);
         return c;
       }
       if (func(c) * func(a) < 0) {

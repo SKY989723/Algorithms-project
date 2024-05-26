@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper, Typography, Button, Box, styled } from "@mui/material";
-
+import { Link } from "react-router-dom";
 // Define a custom styled Paper component with similar styling to Card1, Card2, and Card3
 const StyledPaper = styled(Paper)({
     padding: 20,
@@ -28,6 +28,8 @@ const Card4 = () => {
             >
                 <Box mx={2}>
                     <Button
+                        component={Link}
+                        to="/secant-method"
                         variant="contained"
                         color="primary"
                         size="large"
@@ -38,6 +40,8 @@ const Card4 = () => {
                 </Box>
                 <Box mx={2}>
                     <Button
+                       component={Link}
+                       to="/secant-practical"
                         variant="contained"
                         color="secondary"
                         size="large"

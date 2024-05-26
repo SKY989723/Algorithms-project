@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper, Typography, Button, Box, styled } from "@mui/material";
-
+import { Link } from "react-router-dom";
 // Define a custom styled Paper component with similar styling to Card1 and Card2
 const StyledPaper = styled(Paper)({
     padding: 20,
@@ -16,7 +16,7 @@ const Card3 = () => {
     return (
         <StyledPaper elevation={8}>
             <Typography variant="h3" align="center" gutterBottom fontWeight="bold">
-                Newton Repshon
+                Newton Raphson
             </Typography>
             <Box
                 sx={{
@@ -28,6 +28,8 @@ const Card3 = () => {
             >
                 <Box mx={2}>
                     <Button
+                        component={Link}
+                        to="/newton-method"
                         variant="contained"
                         color="primary"
                         size="large"
@@ -38,6 +40,8 @@ const Card3 = () => {
                 </Box>
                 <Box mx={2}>
                     <Button
+                        component={Link}
+                        to="/newton-practical"
                         variant="contained"
                         color="secondary"
                         size="large"
