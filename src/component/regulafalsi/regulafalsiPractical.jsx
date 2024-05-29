@@ -57,7 +57,7 @@ const RegulaFalsi = () => {
       />
       <TextField
         fullWidth
-        label="Enter the non-linear equation as a JavaScript expression"
+        label="Enter a syntax in terms of 'x'"
         value={equationString}
         onChange={(e) => setEquationString(e.target.value)}
         margin="normal"

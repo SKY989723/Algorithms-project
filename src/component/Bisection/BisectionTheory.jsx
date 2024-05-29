@@ -56,7 +56,7 @@ const BisectionMethod = () => {
             <Divider/>
             <Typography variant="h5" fontWeight="bold">Input and Output:</Typography>
             <Typography variant="body1" paragraph>
-                Enter a function in terms of 'x', e.g., x^3 - x^2 - 2: x**3 - 4*x - 9
+                Enter a syntax in terms of 'x', e.g., x^3 - x^2 - 2: x**3 - 4*x - 9
             </Typography>
             <Typography variant="body1" paragraph>
                 Enter the lower bound of the interval (a): 2

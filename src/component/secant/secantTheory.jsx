@@ -53,7 +53,7 @@ const SecantMethod = () => {
             <Divider />
             <Typography variant="h5" fontWeight="bold">Input and Output:</Typography>
             <Typography variant="body1" paragraph>
-                Enter the function f(x) as a JavaScript expression (e.g., x*x - 2): x**3 - 5*x + 1
+            Enter a syntax in terms of 'x': x**3 - 5*x + 1
             </Typography>
             <Typography variant="body1" paragraph>
                 Enter the lower bound of the interval (a): 0

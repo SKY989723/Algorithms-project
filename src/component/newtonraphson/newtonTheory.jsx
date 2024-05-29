@@ -41,7 +41,7 @@ const NewtonRaphsonMethod = () => {
             <Divider />
             <Typography variant="h5" fontWeight="bold">Input and Output:</Typography>
             <Typography variant="body1" paragraph>
-                Enter the function f(x) as a JavaScript expression: x*x*x - 6*x + 1
+            Enter a syntax in terms of 'x': x*x*x - 6*x + 1
             </Typography>
             <Typography variant="body1" paragraph>
                 Enter the initial guess value: 1

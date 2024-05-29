@@ -49,7 +49,7 @@ const RegulaFalsiMethod = () => {
                 Enter the value of 'b': 3
             </Typography>
             <Typography variant="body1" paragraph>
-                Enter the non-linear equation as a JavaScript expression (e.g., x*x*x - 2*x - 5): x*x*x*x + x*x*x - 7*x*x - x + 5
+            Enter a syntax in terms of 'x': x*x*x*x + x*x*x - 7*x*x - x + 5
             </Typography>
             <Typography variant="body1" paragraph>
                 The value of the root is: 2.0499

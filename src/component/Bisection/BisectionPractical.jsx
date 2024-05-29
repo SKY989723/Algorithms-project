@@ -58,7 +58,7 @@ const BisectionPractical = () => {
       </Typography>
       <TextField
         fullWidth
-        label="Enter a function in terms of 'x'"
+        label="Enter a syntax in terms of 'x'"
         name="userFunc"
         value={userFunc}
         onChange={handleChange}
